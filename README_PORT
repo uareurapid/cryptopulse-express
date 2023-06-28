@@ -1,5 +1,10 @@
 sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 5000
-using ngix is better
+OR
+using ngix
 
 sudo service nginx restart
+
 pm2 start/stop index.js
+
+ssh -i keypair.pem ubuntu@16.171.34.12
+
